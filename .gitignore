@@ -1,0 +1,26 @@
+#temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+#netlist files
+*.net
+
+#autorouter files
+*.dsn
+*.ses
+
+#exportes bom
+*.xm
+*.csv
+
+
