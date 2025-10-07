@@ -1936,6 +1936,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 58.42 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15678660-61b4-4444-9002-cf99f90c6108")
+		(property "Reference" "J1"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "alimentacion"
+			(at 54.61 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f32f98b1-52f1-44e6-bae7-672baf9b40c3")
+		)
+		(pin "2"
+			(uuid "17247f12-b79e-4cf9-b9b9-c2e6347d0fb0")
+		)
+		(instances
+			(project ""
+				(path "/ce164fd7-1fff-4932-ba2b-ff598bb9c108"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 105.41 0)
 		(unit 1)
@@ -2281,76 +2349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 58.42 115.57 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68ca7f61-0385-408f-af6f-5da7f761ac96")
-		(property "Reference" "J3"
-			(at 55.88 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "alimentacion"
-			(at 55.88 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 58.42 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01ed7912-03b9-40eb-a1ba-75f0a290b2b2")
-		)
-		(pin "1"
-			(uuid "5ce79597-b381-4f2e-8686-bcd4d3716171")
-		)
-		(instances
-			(project "TP8_ej2_Salomon"
-				(path "/ce164fd7-1fff-4932-ba2b-ff598bb9c108"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 134.62 78.74 0)
 		(unit 1)
@@ -2617,76 +2615,6 @@
 			(project "TP8_ej2_Salomon"
 				(path "/ce164fd7-1fff-4932-ba2b-ff598bb9c108"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 203.2 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a940e235-662e-4749-ae57-1abab41fa63b")
-		(property "Reference" "J1"
-			(at 205.74 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "alimentacion"
-			(at 205.74 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 203.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 203.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7da2d5d6-5cbd-467e-b31d-aeb721d3cb5d")
-		)
-		(pin "1"
-			(uuid "614a3958-0db7-43c5-b970-ae4607fbe938")
-		)
-		(instances
-			(project "TP8_ej2_Salomon"
-				(path "/ce164fd7-1fff-4932-ba2b-ff598bb9c108"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3062,7 +2990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0497f2c-ae17-433a-af1e-1176f2f06e4e")
-		(property "Reference" "Rs"
+		(property "Reference" "Rs1"
 			(at 74.93 86.36 90)
 			(effects
 				(font
@@ -3114,7 +3042,7 @@
 		(instances
 			(project "TP8_ej2_Salomon"
 				(path "/ce164fd7-1fff-4932-ba2b-ff598bb9c108"
-					(reference "Rs")
+					(reference "Rs1")
 					(unit 1)
 				)
 			)
@@ -3189,76 +3117,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 58.42 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6103865-d84f-4564-9cf6-6aaa34c06397")
-		(property "Reference" "J2"
-			(at 55.88 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "alimentacion"
-			(at 55.88 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 58.42 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "10fe89e5-d607-4165-9327-96c6f5c8d5f8")
-		)
-		(pin "1"
-			(uuid "c6654f03-6c11-443e-9a39-3d70854c0de7")
-		)
-		(instances
-			(project "TP8_ej2_Salomon"
-				(path "/ce164fd7-1fff-4932-ba2b-ff598bb9c108"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 99.06 78.74 0)
 		(unit 1)
@@ -3268,7 +3126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c742ca96-9eeb-44d7-a98e-7f1cc4610137")
-		(property "Reference" "RB"
+		(property "Reference" "RB1"
 			(at 101.6 77.4699 0)
 			(effects
 				(font
@@ -3322,7 +3180,7 @@
 		(instances
 			(project ""
 				(path "/ce164fd7-1fff-4932-ba2b-ff598bb9c108"
-					(reference "RB")
+					(reference "RB1")
 					(unit 1)
 				)
 			)
@@ -3795,6 +3653,141 @@
 			(project "TP8_ej2_Salomon"
 				(path "/ce164fd7-1fff-4932-ba2b-ff598bb9c108"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 58.42 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efa85e2d-4775-4faf-8029-5db1ef3a0694")
+		(property "Reference" "J2"
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "input"
+			(at 54.61 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eef53ffa-345b-4bd2-a912-dcea7bdda926")
+		)
+		(pin "2"
+			(uuid "eeccadb5-1664-4300-88a2-a48ccba1d4d8")
+		)
+		(instances
+			(project "TP8_ej2_Salomon"
+				(path "/ce164fd7-1fff-4932-ba2b-ff598bb9c108"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 203.2 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f19192e0-9ac3-44d4-9d4c-936baa87cade")
+		(property "Reference" "J3"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "output"
+			(at 207.01 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7028345f-ebc7-4978-8d35-ec26243386cb")
+		)
+		(pin "2"
+			(uuid "9887a234-7bb4-43b5-aa2d-5387f2c9be38")
+		)
+		(instances
+			(project "TP8_ej2_Salomon"
+				(path "/ce164fd7-1fff-4932-ba2b-ff598bb9c108"
+					(reference "J3")
 					(unit 1)
 				)
 			)
