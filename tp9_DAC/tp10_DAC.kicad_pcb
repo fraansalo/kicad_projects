@@ -64,6 +64,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -887,6 +888,17 @@
 			)
 		)
 		(model "${KICAD9_3DMODEL_DIR}/bornera_2pines.STEP"
+			(offset
+				(xyz 2.5 0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+		(model "C:/Users/Administrador/Documents/Facultad/UTN/DAC/kicad_projects/lib_personal/borneras/bornera_2pines.STEP"
 			(offset
 				(xyz 2.5 0.5 0)
 			)
@@ -3967,6 +3979,17 @@
 				(xyz -0 180 90)
 			)
 		)
+		(model "C:/Users/Administrador/Documents/Facultad/UTN/DAC/kicad_projects/lib_personal/Potentiometer.stp"
+			(offset
+				(xyz 5.5 -5 13.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 180 90)
+			)
+		)
 	)
 	(footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 		(layer "F.Cu")
@@ -5100,6 +5123,17 @@
 			)
 			(rotate
 				(xyz -180 -0 -90)
+			)
+		)
+		(model "C:/Users/Administrador/Documents/Facultad/UTN/DAC/kicad_projects/lib_personal/Potentiometer.stp"
+			(offset
+				(xyz 5.5 -5 13.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 180 90)
 			)
 		)
 	)

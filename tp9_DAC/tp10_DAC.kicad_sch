@@ -4360,7 +4360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100k"
 			(at 227.33 100.3299 0)
 			(effects
 				(font
@@ -4751,7 +4751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT1"
+		(property "Value" "Bornera_2pos"
 			(at 50.8 97.7899 0)
 			(effects
 				(font
@@ -4895,7 +4895,7 @@
 		(at 128.27 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6e9f6905-786f-430b-b2f1-1fbd81a67f79")
@@ -5172,7 +5172,7 @@
 		(at 129.54 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7f96475e-9948-4296-ba8a-a67bcef6adde")
@@ -6107,7 +6107,7 @@
 		(at 207.01 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a6c6c257-8659-4628-bdc5-daa0fcc26300")
@@ -6310,7 +6310,7 @@
 		(at 63.5 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b15730d0-97bb-4a53-863c-5f606ab5767d")
@@ -7060,7 +7060,7 @@
 		(at 218.44 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fa575ded-b42e-495f-8fbb-2f577f955571")
