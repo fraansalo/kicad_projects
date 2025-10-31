@@ -64,7 +64,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -2592,6 +2591,17 @@
 			)
 		)
 		(model "${KICAD9_3DMODEL_DIR}/OSTTA020161--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 2.5 0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/bornera_2pines.STEP"
 			(offset
 				(xyz 2.5 0.5 0)
 			)
