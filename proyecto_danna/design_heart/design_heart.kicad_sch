@@ -259,6 +259,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -870,6 +1060,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Nidec_CAS-120A1"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Nidec_CAS-120A1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC548"
 			(pin_names
 				(offset 0)
@@ -1303,10 +1678,22 @@
 		)
 	)
 	(junction
+		(at 106.68 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0777a3f4-5ed5-4a17-aac3-b1718c25c31e")
+	)
+	(junction
 		(at 106.68 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "181d76c9-55c2-45fd-9f01-834730e58ece")
+	)
+	(junction
+		(at 91.44 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24288d1c-fad1-4c43-986d-1f744fc53b58")
 	)
 	(junction
 		(at 147.32 81.28)
@@ -1570,6 +1957,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 46.99) (xy 91.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2267c910-ef47-48e5-bfa4-bd4b9d2eebe3")
+	)
+	(wire
+		(pts
 			(xy 153.67 86.36) (xy 149.86 86.36)
 		)
 		(stroke
@@ -1577,6 +1974,16 @@
 			(type default)
 		)
 		(uuid "23833230-8c68-437d-8a7b-a2d1a6e278d9")
+	)
+	(wire
+		(pts
+			(xy 91.44 39.37) (xy 106.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27fa3009-81d0-4a23-bde9-14728fbf7694")
 	)
 	(wire
 		(pts
@@ -1637,6 +2044,16 @@
 			(type default)
 		)
 		(uuid "3c944727-2b58-4050-9624-fcc03f3fd4c5")
+	)
+	(wire
+		(pts
+			(xy 106.68 36.83) (xy 106.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed7b73b-28f3-4463-8d98-ac214bc3cbf7")
 	)
 	(wire
 		(pts
@@ -1710,6 +2127,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 39.37) (xy 91.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f971e6-dbd0-425f-bbbe-51c5be2b683f")
+	)
+	(wire
+		(pts
 			(xy 242.57 99.06) (xy 242.57 57.15)
 		)
 		(stroke
@@ -1717,6 +2144,16 @@
 			(type default)
 		)
 		(uuid "686dfd9f-f71b-48a0-9639-98cb67c3201f")
+	)
+	(wire
+		(pts
+			(xy 57.15 41.91) (xy 69.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1b53e9-b67d-484d-adc8-cd7128a7d311")
 	)
 	(wire
 		(pts
@@ -1800,6 +2237,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 41.91) (xy 106.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc55acc-ee98-4fa0-b166-8ab3a1b48a8d")
+	)
+	(wire
+		(pts
 			(xy 132.08 63.5) (xy 132.08 73.66)
 		)
 		(stroke
@@ -1817,16 +2264,6 @@
 			(type default)
 		)
 		(uuid "8259fef5-119c-40b9-a9a6-33a46cc55fb5")
-	)
-	(wire
-		(pts
-			(xy 76.2 66.04) (xy 76.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8287cf5e-e521-4527-91ad-441b23089f14")
 	)
 	(wire
 		(pts
@@ -2000,6 +2437,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 63.5) (xy 76.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf64928-59dd-45f0-9d08-227d251e9697")
+	)
+	(wire
+		(pts
 			(xy 170.18 149.86) (xy 170.18 83.82)
 		)
 		(stroke
@@ -2169,6 +2616,143 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 57.15 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06019752-37cd-4b77-b9c1-cf3931a4e9cc")
+		(property "Reference" "#PWR011"
+			(at 57.15 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 57.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa4c7e4e-5de4-42a6-abe2-f4f4ad533edb")
+		)
+		(instances
+			(project "design_heart"
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 74.93 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06ffbaa7-f07d-49a6-9dcc-76419be8f2a2")
+		(property "Reference" "SW1"
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 74.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b39d8f44-f6a7-446f-9358-79b78653da22")
+		)
+		(pin "3"
+			(uuid "233a515b-ad37-46fb-8201-252e55095d6f")
+		)
+		(pin "1"
+			(uuid "9a07d93d-54b6-464d-acb6-8d3704a5d0c8")
+		)
+		(instances
+			(project ""
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "SW1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2542,6 +3126,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c5ea0e7-26a9-4cf2-93d2-7d9771a42799")
+		(property "Reference" "#PWR08"
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac715420-895d-489d-9b61-3a53989bce79")
+		)
+		(instances
+			(project ""
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC548")
 		(at 104.14 81.28 0)
 		(unit 1)
@@ -2899,6 +3549,72 @@
 			(project ""
 				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 106.68 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "609fbd52-1cd9-466a-8f6c-2eb9eddc5db5")
+		(property "Reference" "#PWR09"
+			(at 106.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_pre"
+			(at 106.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 106.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77d2ac3f-63bf-45c5-89d2-1f0955d477a2")
+		)
+		(instances
+			(project ""
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4242,6 +4958,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 91.44 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfc16d6a-e9c8-4cde-98aa-65b8621661c6")
+		(property "Reference" "#PWR010"
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86dcae4e-a81a-4000-b949-eca3e288e25f")
+		)
+		(instances
+			(project "design_heart"
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 161.29 83.82 0)
 		(unit 1)
@@ -4295,28 +5077,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "9e96179e-0f35-4a79-bf90-09b5d2d5ed40")
+			(uuid "9e96179e-0f35-4a79-bf90-09b5d2d5ed41")
 		)
 		(pin "7"
-			(uuid "fdc4d365-da92-489f-af30-90a56115a7b5")
+			(uuid "fdc4d365-da92-489f-af30-90a56115a7b6")
 		)
 		(pin "4"
-			(uuid "93754216-6b23-41d4-bc52-480c891f2cb1")
+			(uuid "93754216-6b23-41d4-bc52-480c891f2cb2")
 		)
 		(pin "2"
-			(uuid "311e96c0-a955-4ff3-ab91-2ecbc0b7916e")
+			(uuid "311e96c0-a955-4ff3-ab91-2ecbc0b7916f")
 		)
 		(pin "3"
-			(uuid "ec80b114-d1c2-4367-895c-66a11a1e1924")
+			(uuid "ec80b114-d1c2-4367-895c-66a11a1e1925")
 		)
 		(pin "8"
-			(uuid "8d10c3b9-9d1c-4a36-a332-78c558fae3a6")
+			(uuid "8d10c3b9-9d1c-4a36-a332-78c558fae3a7")
 		)
 		(pin "1"
-			(uuid "fb1c8e78-56fd-4a63-983e-56b5a0acbe17")
+			(uuid "fb1c8e78-56fd-4a63-983e-56b5a0acbe18")
 		)
 		(pin "6"
-			(uuid "789e8a64-382f-4951-92b2-1695b64097de")
+			(uuid "789e8a64-382f-4951-92b2-1695b64097df")
 		)
 		(instances
 			(project ""
@@ -4470,6 +5252,84 @@
 			(project "design_heart"
 				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 91.44 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e394d510-6fcb-4646-8f78-62a357ba2ab7")
+		(property "Reference" "D1"
+			(at 92.71 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 92.71 42.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+			(at 91.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 91.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63294b6c-94e8-4e25-a012-2c988cfe0e66")
+		)
+		(pin "2"
+			(uuid "5a82f34f-67b4-44bb-a768-faa6c942b025")
+		)
+		(instances
+			(project "design_heart"
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4662,34 +5522,104 @@
 			)
 		)
 		(pin "5"
-			(uuid "9e96179e-0f35-4a79-bf90-09b5d2d5ed40")
+			(uuid "9e96179e-0f35-4a79-bf90-09b5d2d5ed42")
 		)
 		(pin "7"
-			(uuid "fdc4d365-da92-489f-af30-90a56115a7b5")
+			(uuid "fdc4d365-da92-489f-af30-90a56115a7b7")
 		)
 		(pin "4"
-			(uuid "93754216-6b23-41d4-bc52-480c891f2cb1")
+			(uuid "93754216-6b23-41d4-bc52-480c891f2cb3")
 		)
 		(pin "2"
-			(uuid "311e96c0-a955-4ff3-ab91-2ecbc0b7916e")
+			(uuid "311e96c0-a955-4ff3-ab91-2ecbc0b79170")
 		)
 		(pin "3"
-			(uuid "ec80b114-d1c2-4367-895c-66a11a1e1924")
+			(uuid "ec80b114-d1c2-4367-895c-66a11a1e1926")
 		)
 		(pin "8"
-			(uuid "8d10c3b9-9d1c-4a36-a332-78c558fae3a6")
+			(uuid "8d10c3b9-9d1c-4a36-a332-78c558fae3a8")
 		)
 		(pin "1"
-			(uuid "fb1c8e78-56fd-4a63-983e-56b5a0acbe17")
+			(uuid "fb1c8e78-56fd-4a63-983e-56b5a0acbe19")
 		)
 		(pin "6"
-			(uuid "789e8a64-382f-4951-92b2-1695b64097de")
+			(uuid "789e8a64-382f-4951-92b2-1695b64097e0")
 		)
 		(instances
 			(project ""
 				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
 					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 111.76 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff44c916-a672-4aff-bccf-c7c392d882b0")
+		(property "Reference" "J1"
+			(at 114.3 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 114.3 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06302HBWC_1x02_P3.50mm_Horizontal"
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "787acf53-7643-4087-8f1a-f3d90ab90825")
+		)
+		(pin "1"
+			(uuid "da7cb2ec-338c-41cf-854f-f79c38ef7131")
+		)
+		(instances
+			(project ""
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "J1")
+					(unit 1)
 				)
 			)
 		)
