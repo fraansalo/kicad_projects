@@ -1957,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 46.99) (xy 91.44 48.26)
+			(xy 91.44 54.61) (xy 91.44 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1997,6 +1997,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 40.64) (xy 91.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3060ad31-d5d6-442d-9d0a-5407772d15dd")
+	)
+	(wire
+		(pts
 			(xy 106.68 105.41) (xy 106.68 107.95)
 		)
 		(stroke
@@ -2024,6 +2034,16 @@
 			(type default)
 		)
 		(uuid "3370f4ba-5fe5-49ba-9634-02501cd1a161")
+	)
+	(wire
+		(pts
+			(xy 91.44 46.99) (xy 91.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37069024-4197-4c7a-a6c1-0faf8aed4e2b")
 	)
 	(wire
 		(pts
@@ -4959,7 +4979,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 48.26 0)
+		(at 91.44 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4968,7 +4988,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfc16d6a-e9c8-4cde-98aa-65b8621661c6")
 		(property "Reference" "#PWR010"
-			(at 91.44 54.61 0)
+			(at 91.44 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +4997,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 53.34 0)
+			(at 91.44 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +5005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 48.26 0)
+			(at 91.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +5014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 48.26 0)
+			(at 91.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +5023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 48.26 0)
+			(at 91.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,33 +5278,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 91.44 43.18 90)
+		(lib_id "Device:R_Small")
+		(at 91.44 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e394d510-6fcb-4646-8f78-62a357ba2ab7")
-		(property "Reference" "D1"
-			(at 92.71 43.688 90)
+		(fields_autoplaced yes)
+		(uuid "e35bda0f-8f94-4609-a222-e654b256822e")
+		(property "Reference" "R8"
+			(at 93.98 41.9099 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 93.98 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 92.71 42.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 91.44 43.18 0)
 			(effects
 				(font
@@ -5302,7 +5323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Resistor, small symbol"
 			(at 91.44 43.18 0)
 			(effects
 				(font
@@ -5311,8 +5332,77 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "6734aaa2-e546-4cd0-97e3-350ab7f628f4")
+		)
+		(pin "2"
+			(uuid "7ec28ab8-36f8-4472-b437-04835b0e16c0")
+		)
+		(instances
+			(project "design_heart"
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 91.44 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e394d510-6fcb-4646-8f78-62a357ba2ab7")
+		(property "Reference" "D1"
+			(at 92.71 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 92.71 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+			(at 91.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 91.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 43.18 0)
+			(at 91.44 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
