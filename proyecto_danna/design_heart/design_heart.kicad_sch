@@ -1060,49 +1060,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Nidec_CAS-120A1"
+		(symbol "TL2230OAF140:TL2230OAF140"
 			(pin_names
-				(offset 1)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
+			(property "Reference" "S"
+				(at -2.54 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_Nidec_CAS-120A1"
-				(at 0 -5.08 0)
+			(property "Value" "TL2230OAF140"
+				(at -2.54 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-				(at 0 -10.16 0)
+			(property "Footprint" "TL2230OAF140:SW_TL2230OAF140"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1111,7 +1104,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1120,21 +1113,143 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+			(property "MF" "E-Switch"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "SW_Nidec_CAS-120A1_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "12.5 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TL2230OAF140/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL2230OAF140/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TL2230OAF140"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "PUSHBUTTON, 100mA, 30VDC DPDT, On-(On) Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "TL2230EEF140"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TL2230OAF140_0_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -5.08 5.08)
+					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1143,10 +1258,34 @@
 				)
 				(polyline
 					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
+						(xy -2.54 5.08) (xy 2.794 7.2136)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 2.794 -2.9464)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1154,10 +1293,10 @@
 					)
 				)
 				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
+					(center 2.54 7.62)
+					(radius 0.3302)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1165,79 +1304,190 @@
 					)
 				)
 				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
+					(center 2.54 2.54)
+					(radius 0.3302)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3302)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -7.62)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 2.921 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.921 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.921 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 2.921 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -7.62 5.08 0)
 					(length 2.54)
-					(name "B"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -7.62 -5.08 0)
 					(length 2.54)
-					(name "A"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 7.62 7.62 180)
 					(length 2.54)
-					(name "C"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1678,7 +1928,7 @@
 		)
 	)
 	(junction
-		(at 106.68 39.37)
+		(at 232.41 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0777a3f4-5ed5-4a17-aac3-b1718c25c31e")
@@ -1690,7 +1940,7 @@
 		(uuid "181d76c9-55c2-45fd-9f01-834730e58ece")
 	)
 	(junction
-		(at 91.44 39.37)
+		(at 217.17 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24288d1c-fad1-4c43-986d-1f744fc53b58")
@@ -1847,6 +2097,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 137.16) (xy 217.17 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d17bebc-dc87-42d5-bdf7-8b4572acea26")
+	)
+	(wire
+		(pts
 			(xy 170.18 66.04) (xy 170.18 83.82)
 		)
 		(stroke
@@ -1957,16 +2217,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 54.61) (xy 91.44 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2267c910-ef47-48e5-bfa4-bd4b9d2eebe3")
-	)
-	(wire
-		(pts
 			(xy 153.67 86.36) (xy 149.86 86.36)
 		)
 		(stroke
@@ -1977,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 39.37) (xy 106.68 39.37)
+			(xy 217.17 137.16) (xy 232.41 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1997,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 40.64) (xy 91.44 39.37)
+			(xy 217.17 138.43) (xy 217.17 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 46.99) (xy 91.44 45.72)
+			(xy 217.17 144.78) (xy 217.17 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 36.83) (xy 106.68 39.37)
+			(xy 232.41 134.62) (xy 232.41 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2147,16 +2397,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 39.37) (xy 91.44 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f971e6-dbd0-425f-bbbe-51c5be2b683f")
-	)
-	(wire
-		(pts
 			(xy 242.57 99.06) (xy 242.57 57.15)
 		)
 		(stroke
@@ -2164,16 +2404,6 @@
 			(type default)
 		)
 		(uuid "686dfd9f-f71b-48a0-9639-98cb67c3201f")
-	)
-	(wire
-		(pts
-			(xy 57.15 41.91) (xy 69.85 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e1b53e9-b67d-484d-adc8-cd7128a7d311")
 	)
 	(wire
 		(pts
@@ -2257,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 41.91) (xy 106.68 48.26)
+			(xy 232.41 139.7) (xy 232.41 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2294,6 +2524,16 @@
 			(type default)
 		)
 		(uuid "8521ea8d-afb6-42ba-ad74-deb5b954b835")
+	)
+	(wire
+		(pts
+			(xy 217.17 152.4) (xy 217.17 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ca4d78-cec6-4059-85eb-0211320f0b8c")
 	)
 	(wire
 		(pts
@@ -2497,6 +2737,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 139.7) (xy 187.96 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a6c6bc-927d-4ea8-a509-baf824023eba")
+	)
+	(wire
+		(pts
 			(xy 191.77 100.33) (xy 191.77 114.3)
 		)
 		(stroke
@@ -2641,7 +2891,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 57.15 41.91 0)
+		(at 182.88 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2650,7 +2900,7 @@
 		(fields_autoplaced yes)
 		(uuid "06019752-37cd-4b77-b9c1-cf3931a4e9cc")
 		(property "Reference" "#PWR011"
-			(at 57.15 45.72 0)
+			(at 182.88 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2909,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 57.15 36.83 0)
+			(at 182.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 41.91 0)
+			(at 182.88 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 41.91 0)
+			(at 182.88 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 57.15 41.91 0)
+			(at 182.88 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,77 +2950,6 @@
 			(project "design_heart"
 				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 74.93 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06ffbaa7-f07d-49a6-9dcc-76419be8f2a2")
-		(property "Reference" "SW1"
-			(at 74.93 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 74.93 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 74.93 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 74.93 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 74.93 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b39d8f44-f6a7-446f-9358-79b78653da22")
-		)
-		(pin "3"
-			(uuid "233a515b-ad37-46fb-8201-252e55095d6f")
-		)
-		(pin "1"
-			(uuid "9a07d93d-54b6-464d-acb6-8d3704a5d0c8")
-		)
-		(instances
-			(project ""
-				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3147,7 +3326,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 48.26 0)
+		(at 232.41 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3156,7 +3335,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c5ea0e7-26a9-4cf2-93d2-7d9771a42799")
 		(property "Reference" "#PWR08"
-			(at 106.68 54.61 0)
+			(at 232.41 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3344,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 53.34 0)
+			(at 232.41 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 48.26 0)
+			(at 232.41 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 48.26 0)
+			(at 232.41 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +3370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 48.26 0)
+			(at 232.41 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,155 +3385,6 @@
 			(project ""
 				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC548")
-		(at 104.14 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42ad8098-d576-4905-ae42-1153edfc7b5e")
-		(property "Reference" "Q1"
-			(at 109.22 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC548"
-			(at 109.22 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 109.22 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 104.14 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
-			(at 104.14 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad42705d-c4d3-46d9-8f03-a7f9774b78e3")
-		)
-		(pin "3"
-			(uuid "d1fc375f-3d57-4c04-b92a-1eda1917998c")
-		)
-		(pin "2"
-			(uuid "ab08573b-29d9-4216-b0da-b725d2fbebf2")
-		)
-		(instances
-			(project ""
-				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 106.68 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44f9133e-393d-4953-bc8a-ef3e2b100ca2")
-		(property "Reference" "RV2"
-			(at 104.14 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 104.14 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical_Hole"
-			(at 106.68 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 106.68 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9e69a63-cc10-4038-ad8b-24016e298a8b")
-		)
-		(pin "2"
-			(uuid "3808c450-fa5d-4d7a-8453-6bdf4de946b0")
-		)
-		(pin "3"
-			(uuid "510be60f-fa40-48f5-930b-a659b9752c22")
-		)
-		(instances
-			(project "design_heart"
-				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
-					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -3575,8 +3605,295 @@
 		)
 	)
 	(symbol
+		(lib_id "TL2230OAF140:TL2230OAF140")
+		(at 195.58 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57f1e2e7-f1bc-41b5-8089-940033f9480b")
+		(property "Reference" "S1"
+			(at 195.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL2230OAF140"
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TL2230OAF140:SW_TL2230OAF140"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "12.5 mm"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL2230OAF140/E-Switch/view-part/?ref=eda"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "E"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL2230OAF140/E-Switch/view-part/?ref=snap"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL2230OAF140"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "PUSHBUTTON, 100mA, 30VDC DPDT, On-(On) Through Hole"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TL2230EEF140"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c9f47e0c-0b73-49f9-96d1-886f5514556c")
+		)
+		(pin "1"
+			(uuid "d8382727-e5c4-4101-85b3-38b99c54b3db")
+		)
+		(pin "6"
+			(uuid "3f805c15-4ddd-4d5e-a51b-833d1946299d")
+		)
+		(pin "3"
+			(uuid "943fbac9-92b8-4031-b07b-cfbc215aff6d")
+		)
+		(pin "2"
+			(uuid "0c6cb3ce-0115-45f0-ac9b-72d2f4c2d6a8")
+		)
+		(pin "5"
+			(uuid "e6fddf57-ad62-4118-a885-7c46f0834538")
+		)
+		(instances
+			(project ""
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC548")
+		(at 104.14 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58211b22-17b8-4d2c-8d01-88f145c468f7")
+		(property "Reference" "Q2"
+			(at 109.22 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC548"
+			(at 109.22 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 109.22 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 104.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
+			(at 104.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07317836-cda9-47fb-a84d-fd428ecefc3e")
+		)
+		(pin "1"
+			(uuid "c02aa3d5-2702-433c-8ea4-187f65be7a93")
+		)
+		(pin "3"
+			(uuid "b7f3be5d-17c8-4428-9ac4-f46fa4020465")
+		)
+		(instances
+			(project ""
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
-		(at 106.68 36.83 0)
+		(at 232.41 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3585,7 +3902,7 @@
 		(fields_autoplaced yes)
 		(uuid "609fbd52-1cd9-466a-8f6c-2eb9eddc5db5")
 		(property "Reference" "#PWR09"
-			(at 106.68 40.64 0)
+			(at 232.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3911,7 @@
 			)
 		)
 		(property "Value" "+12V_pre"
-			(at 106.68 31.75 0)
+			(at 232.41 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 36.83 0)
+			(at 232.41 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 36.83 0)
+			(at 232.41 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +3937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 106.68 36.83 0)
+			(at 232.41 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,6 +4108,79 @@
 			(project "design_heart"
 				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 106.68 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73d1201a-9723-4faa-ae95-8a7aed41aa90")
+		(property "Reference" "RV4"
+			(at 104.14 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 104.14 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd4144f9-4784-41eb-933b-e1e27280d6fc")
+		)
+		(pin "2"
+			(uuid "a9d143d2-55a1-4a81-a56c-cb5f3322f495")
+		)
+		(pin "3"
+			(uuid "48f343fa-a0a8-4c80-ab0f-8307d653ebed")
+		)
+		(instances
+			(project "design_heart"
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -4108,6 +4498,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 209.55 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97284265-5e24-4e06-8851-c2d70070803b")
+		(property "Reference" "RV3"
+			(at 209.55 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50k"
+			(at 209.55 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0797710d-b57e-4574-aef6-949d151a4f42")
+		)
+		(pin "2"
+			(uuid "a986af21-24f7-4a3f-bc34-28923ffe59f7")
+		)
+		(pin "3"
+			(uuid "2070ccba-332f-49b4-b3bc-8c69eae1480c")
+		)
+		(instances
+			(project ""
+				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 100.33 134.62 90)
 		(unit 1)
@@ -4313,77 +4774,6 @@
 			(project ""
 				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 209.55 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5142372-b6bd-45d7-8140-af182af40873")
-		(property "Reference" "RV1"
-			(at 209.55 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50k"
-			(at 209.55 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical_Hole"
-			(at 209.55 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 209.55 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fae28a30-c91b-49e6-a9e2-55c1dc603ccf")
-		)
-		(pin "2"
-			(uuid "e689ac2d-ae7f-477c-9963-778b724685ca")
-		)
-		(pin "3"
-			(uuid "e58ae579-06f0-41bc-9f88-3a00a7075286")
-		)
-		(instances
-			(project ""
-				(path "/351bad0a-1beb-4827-907f-145a07d8f769"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -4979,7 +5369,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 55.88 0)
+		(at 217.17 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4988,7 +5378,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfc16d6a-e9c8-4cde-98aa-65b8621661c6")
 		(property "Reference" "#PWR010"
-			(at 91.44 62.23 0)
+			(at 217.17 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 60.96 0)
+			(at 217.17 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +5395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 55.88 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +5404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 55.88 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 55.88 0)
+			(at 217.17 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +5669,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 91.44 43.18 0)
+		(at 217.17 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5288,7 +5678,7 @@
 		(fields_autoplaced yes)
 		(uuid "e35bda0f-8f94-4609-a222-e654b256822e")
 		(property "Reference" "R8"
-			(at 93.98 41.9099 0)
+			(at 219.71 139.6999 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5297,7 +5687,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 93.98 44.4499 0)
+			(at 219.71 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,7 +5696,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 91.44 43.18 0)
+			(at 217.17 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,7 +5705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 43.18 0)
+			(at 217.17 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5714,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 91.44 43.18 0)
+			(at 217.17 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +5739,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 91.44 50.8 90)
+		(at 217.17 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5357,7 +5747,7 @@
 		(dnp no)
 		(uuid "e394d510-6fcb-4646-8f78-62a357ba2ab7")
 		(property "Reference" "D1"
-			(at 92.71 51.308 90)
+			(at 218.44 149.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +5756,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 92.71 49.784 90)
+			(at 218.44 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5765,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
-			(at 91.44 50.8 0)
+			(at 217.17 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +5774,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 50.8 0)
+			(at 217.17 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5783,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 91.44 50.8 0)
+			(at 217.17 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5792,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 50.8 0)
+			(at 217.17 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +6036,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 111.76 39.37 0)
+		(at 237.49 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5655,7 +6045,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff44c916-a672-4aff-bccf-c7c392d882b0")
 		(property "Reference" "J1"
-			(at 114.3 39.3699 0)
+			(at 240.03 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +6054,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 114.3 41.9099 0)
+			(at 240.03 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +6063,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06302HBWC_1x02_P3.50mm_Horizontal"
-			(at 111.76 39.37 0)
+			(at 237.49 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +6072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 39.37 0)
+			(at 237.49 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +6081,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 111.76 39.37 0)
+			(at 237.49 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
