@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.7,
+          "height": 2.4,
+          "width": 2.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -188,14 +188,11 @@
       ],
       "track_widths": [
         0.0,
-        0.508,
-        0.762,
-        0.889,
         1.016,
-        1.143,
-        1.397,
+        1.27,
         1.524,
-        1.778
+        1.778,
+        2.159
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -508,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
